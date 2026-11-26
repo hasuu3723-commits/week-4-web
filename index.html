@@ -1,0 +1,269 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpendWise Dashboard</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="dashboard">
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+
+            <div class="logo">
+                <span class="logo-icon">S</span>
+                <h2>SpendWise</h2>
+            </div>
+
+            <p class="menu-title">MAIN MENU</p>
+
+            <nav class="navigation">
+                <a href="#" class="nav-link active">
+                    <span>▦</span> Dashboard
+                </a>
+
+                <a href="#" class="nav-link">
+                    <span>↗</span> Transactions
+                </a>
+
+                <a href="#" class="nav-link">
+                    <span>◷</span> Budget
+                </a>
+
+                <a href="#" class="nav-link">
+                    <span>▤</span> Reports
+                </a>
+
+                <a href="#" class="nav-link">
+                    <span>⚙</span> Settings
+                </a>
+            </nav>
+
+            <div class="sidebar-bottom">
+                <p>Personal Finance</p>
+                <h3>Manage your money smarter.</h3>
+            </div>
+
+        </aside>
+
+
+        <!-- MAIN CONTENT -->
+        <main class="main-content">
+
+            <!-- HEADER -->
+            <header class="header">
+
+                <div class="welcome">
+                    <h1>Dashboard Overview</h1>
+                    <p>Welcome back! Here's your financial summary.</p>
+                </div>
+
+                <div class="header-right">
+                    <span class="notification">🔔</span>
+
+                    <div class="profile">
+                        <div class="avatar">A</div>
+                        <div>
+                            <h4>Alex Morgan</h4>
+                            <p>Personal Account</p>
+                        </div>
+                    </div>
+                </div>
+
+            </header>
+
+
+            <!-- SUMMARY SECTION -->
+            <section class="summary">
+
+                <div class="summary-card">
+                    <p>Total Balance</p>
+                    <h2>$5,240.00</h2>
+                    <span class="positive">↑ 12.5% this month</span>
+                </div>
+
+                <div class="summary-card">
+                    <p>Monthly Income</p>
+                    <h2>$3,500.00</h2>
+                    <span class="positive">↑ 8.2% this month</span>
+                </div>
+
+                <div class="summary-card">
+                    <p>Monthly Expenses</p>
+                    <h2>$1,380.00</h2>
+                    <span class="negative">↓ 4.5% this month</span>
+                </div>
+
+            </section>
+
+
+            <!-- EXPENSE CATEGORIES -->
+            <section class="categories">
+
+                <div class="section-heading">
+                    <div>
+                        <h2>Spending Categories</h2>
+                        <p>Track where your money goes.</p>
+                    </div>
+
+                    <span class="period">November 2026</span>
+                </div>
+
+
+                <div class="category-grid">
+
+                    <!-- FOOD -->
+                    <article class="category-card" tabindex="0">
+                        <div class="card-top">
+                            <div class="category-icon food">🍔</div>
+                            <span class="percentage">+5%</span>
+                        </div>
+                        <h3>Food</h3>
+                        <h2>$350.00</h2>
+                        <p>Groceries and restaurants</p>
+                        <div class="progress">
+                            <div class="progress-fill food-fill"></div>
+                        </div>
+                        <small>70% of budget used</small>
+                    </article>
+
+
+                    <!-- TRANSPORT -->
+                    <article class="category-card" tabindex="0">
+                        <div class="card-top">
+                            <div class="category-icon transport">🚗</div>
+                            <span class="percentage">+2%</span>
+                        </div>
+                        <h3>Transport</h3>
+                        <h2>$120.00</h2>
+                        <p>Fuel and public transport</p>
+                        <div class="progress">
+                            <div class="progress-fill transport-fill"></div>
+                        </div>
+                        <small>40% of budget used</small>
+                    </article>
+
+
+                    <!-- RENT -->
+                    <article class="category-card" tabindex="0">
+                        <div class="card-top">
+                            <div class="category-icon rent">🏠</div>
+                            <span class="percentage">+0%</span>
+                        </div>
+                        <h3>Rent</h3>
+                        <h2>$600.00</h2>
+                        <p>Monthly house rent</p>
+                        <div class="progress">
+                            <div class="progress-fill rent-fill"></div>
+                        </div>
+                        <small>100% of budget used</small>
+                    </article>
+
+
+                    <!-- ENTERTAINMENT -->
+                    <article class="category-card" tabindex="0">
+                        <div class="card-top">
+                            <div class="category-icon entertainment">🎮</div>
+                            <span class="percentage">-3%</span>
+                        </div>
+                        <h3>Entertainment</h3>
+                        <h2>$90.00</h2>
+                        <p>Movies and activities</p>
+                        <div class="progress">
+                            <div class="progress-fill entertainment-fill"></div>
+                        </div>
+                        <small>30% of budget used</small>
+                    </article>
+
+
+                    <!-- SAVINGS -->
+                    <article class="category-card" tabindex="0">
+                        <div class="card-top">
+                            <div class="category-icon savings">💰</div>
+                            <span class="percentage">+10%</span>
+                        </div>
+                        <h3>Savings</h3>
+                        <h2>$400.00</h2>
+                        <p>Monthly savings goal</p>
+                        <div class="progress">
+                            <div class="progress-fill savings-fill"></div>
+                        </div>
+                        <small>80% of goal reached</small>
+                    </article>
+
+
+                    <!-- UTILITIES -->
+                    <article class="category-card" tabindex="0">
+                        <div class="card-top">
+                            <div class="category-icon utilities">💡</div>
+                            <span class="percentage">+4%</span>
+                        </div>
+                        <h3>Utilities</h3>
+                        <h2>$220.00</h2>
+                        <p>Electricity and internet</p>
+                        <div class="progress">
+                            <div class="progress-fill utilities-fill"></div>
+                        </div>
+                        <small>55% of budget used</small>
+                    </article>
+
+                </div>
+
+            </section>
+
+
+            <!-- RECENT ACTIVITY -->
+            <section class="recent-activity">
+                <h2>Recent Activity</h2>
+
+                <div class="activity-item">
+                    <span>🛒</span>
+                    <div>
+                        <h4>Grocery Shopping</h4>
+                        <p>November 25, 2026</p>
+                    </div>
+                    <strong>-$45.00</strong>
+                </div>
+
+                <div class="activity-item">
+                    <span>🚕</span>
+                    <div>
+                        <h4>Transport</h4>
+                        <p>November 24, 2026</p>
+                    </div>
+                    <strong>-$15.00</strong>
+                </div>
+
+                <div class="activity-item">
+                    <span>💼</span>
+                    <div>
+                        <h4>Monthly Salary</h4>
+                        <p>November 23, 2026</p>
+                    </div>
+                    <strong class="income">+$3,500.00</strong>
+                </div>
+
+            </section>
+
+            <footer>
+                <p>© 2026 SpendWise. Manage your money smarter.</p>
+            </footer>
+
+        </main>
+
+    </div>
+
+</body>
+</html>
